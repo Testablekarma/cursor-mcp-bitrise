@@ -1,0 +1,27 @@
+{
+  "name": "cursor-mcp-bitrise",
+  "version": "1.0.0",
+  "description": "A Mission Control Panel integration for Bitrise CI/CD platform",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "cursor",
+    "mcp",
+    "bitrise",
+    "ci",
+    "cd"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0"
+  }
+}
